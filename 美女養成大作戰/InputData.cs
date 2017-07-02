@@ -10,11 +10,35 @@ using System.Windows.Forms;
 
 namespace 美女養成大作戰
 {
-	public partial class DataList : Form
+	public partial class InputData : Form
 	{
-		public DataList()
+		public InputData()
 		{
 			InitializeComponent();
+		}
+
+		public void submit_Click(object sender, EventArgs e)
+		{
+			InputData inputdata = new InputData();
+			inputdata.Show();
+		}
+
+		public string TextBoxMsg
+		{
+			set
+			{
+				weight.Text = value;
+				weight.Text = value;
+				weight.Text = value;
+				weight.Text = value;
+			}
+			get
+			{
+				return weight.Text;
+				return weight.Text;
+				return weight.Text;
+				return weight.Text;
+			}
 		}
 	}
 }

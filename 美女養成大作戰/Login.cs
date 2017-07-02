@@ -19,10 +19,8 @@ namespace 美女養成大作戰
 
 		private void btn_Enter_Click(object sender, EventArgs e)
 		{
-			SelectGoal goal = new SelectGoal();//產生SelectGoal的物件
-
-			this.Visible = false;//將Login隱藏
-			goal.Visible = true;//顯示第二個視窗
+			SelectGoal selectgoal = new SelectGoal();
+			selectgoal.Show();
 		}
 	}
 }

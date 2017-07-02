@@ -151,6 +151,7 @@
 			this.goalSubmit.TabIndex = 9;
 			this.goalSubmit.Text = "確定";
 			this.goalSubmit.UseVisualStyleBackColor = true;
+			this.goalSubmit.Click += new System.EventHandler(this.goalSubmit_Click);
 			// 
 			// SelectGoal
 			// 

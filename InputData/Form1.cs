@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace 美女養成大作戰
+namespace InputData
 {
-	public partial class InputDate : Form
+	public partial class Form1 : Form
 	{
-		public InputDate()
+		public Form1()
 		{
 			InitializeComponent();
 		}

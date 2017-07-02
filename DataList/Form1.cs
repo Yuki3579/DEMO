@@ -8,19 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace 美女養成大作戰
+namespace DataList
 {
-	public partial class SelectGoal : Form
+	public partial class Form1 : Form
 	{
-		public SelectGoal()
+		public Form1()
 		{
 			InitializeComponent();
-		}
-
-		private void goalSubmit_Click(object sender, EventArgs e)
-		{
-			InputData inputdata = new InputData();
-			inputdata.Show();
 		}
 	}
 }

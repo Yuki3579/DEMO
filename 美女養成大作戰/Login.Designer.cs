@@ -2,6 +2,8 @@
 {
 	partial class Form1
 	{
+		
+
 		/// <summary>
 		/// 設計工具所需的變數。
 		/// </summary>
@@ -110,7 +112,7 @@
 		private System.Windows.Forms.PictureBox pictureBox1;
 		private System.Windows.Forms.Label title;
 		private System.Windows.Forms.Label label_UserName;
-		private System.Windows.Forms.TextBox txt_UserName;
+		public System.Windows.Forms.TextBox txt_UserName;
 		private System.Windows.Forms.Button btn_Enter;
 	}
 }
